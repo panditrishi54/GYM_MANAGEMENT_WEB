@@ -1,6 +1,6 @@
 ##RFitness - Responsive Gym Website
 
-![](img/landing-page.png)
+![]("img\IMG.png")
 
 ### About Project
 
