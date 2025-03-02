@@ -1,0 +1,13 @@
+Gym Membership Pricing Plans
+==================================
+
+| Plan         | Duration | Price  | Benefits |
+|--------------|----------|--------|----------|
+| **Basic**    | 3 Months | $99    | Access to gym equipment, Basic fitness training, Locker facility |
+| **Standard** | 6 Months | $179   | Access to gym equipment, Personalized fitness training, Group workout sessions, Locker facility |
+| **Premium**  | 12 Months | $299  | Access to gym equipment, One-on-one personal training, Diet and nutrition consultation, Group workout sessions, Locker and steam room access |
+ 
+**Special Summer Offer:** Get 20% off on any annual plan!
+
+For more details, visit our gym or call us at (+91) 9458889878.
+

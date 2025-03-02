@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>RFitness - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">R</span>Fitness</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              A place for your fitness goals
+            </h1>
+            <p class="description">
+              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+              TRX And Much More
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">
+              Join us
+            </button>
+            <button class="btn btn__secondary">Our services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">R</span>Fitness
+            </h2>
+            <p>
+              RFitness is a modern gym designed to help you stay fit and healthy. We offer top-quality equipment, expert trainers, and personalized workout plans for all fitness levels. Whether you want to lose weight, build muscle, or stay active, RFitness is the perfect place to achieve your fitness goals..
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="img/about-img-1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-3.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+<p>
+  Explore our specialized fitness courses designed to help you achieve your fitness goals. From strength training to high-intensity workouts, we offer expert guidance and top-quality programs for all fitness levels.
+</p>
+</header>
+
+<article class="courses-content">
+  <div class="class-card">
+    <img
+      class="class-card__img"
+      src="./img/courses-bodybuilding.jpg"
+      alt="body building course"
+      width="550"
+      height="550"
+    />
+
+    <div class="class-card__overlay">
+      <div class="text">
+        <p>
+          Build strength and muscle with our expert-led Bodybuilding course. Learn proper techniques, nutrition tips, and advanced training routines to maximize your gains.
+        </p>
+
+        <a href="https://youtu.be/TNe95PIYiaU" class="link-button">Read More &rarr;</a>
+      </div>
+    </div>
+    <div class="class-card__title">Body Building</div>
+  </div>
+
+  <div class="class-card">
+    <img
+      class="class-card__img"
+      src="./img/courses-crossfit.jpg"
+      alt="cross fit course"
+      width="550"
+      height="550"
+    />
+    <div class="class-card__overlay">
+      <div class="text">
+        <p>
+          Get fit with high-intensity CrossFit training! Improve endurance, strength, and agility with our dynamic workouts tailored for all fitness levels.
+        </p>
+
+        <a href="https://youtu.be/TNe95PIYiaU" class="link-button">Read More &rarr;</a>
+      </div>
+    </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-gymnastic.jpg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Improve your strength, flexibility, and endurance with our expert-designed Fitness program. Achieve your fitness goals with personalized workouts and professional coaching.
+      </p>
+
+                  <a href="https://youtu.be/TNe95PIYiaU" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+</div>
+
+<div class="class-card">
+  <img
+    class="class-card__img"
+    src="./img/courses-fitness.jpg"
+    alt="fitness course"
+    width="550"
+    height="550"
+  />
+  <div class="class-card__overlay">
+    <div class="text">
+      <p>
+        Improve your strength, flexibility, and endurance with our expert-designed Fitness program. Achieve your fitness goals with personalized workouts and professional coaching.
+      </p>
+
+      <a href="https://youtu.be/TNe95PIYiaU" class="link-button">Read More &rarr;</a>
+    </div>
+  </div>
+  <div class="class-card__title">Fitness</div>
+</div>
+
+<div class="class-card">
+  <img
+    class="class-card__img"
+    src="./img/courses-TRX.jpg"
+    alt="fitness course"
+    width="550"
+    height="550"
+  />
+  <div class="class-card__overlay">
+    <div class="text">
+      <p>
+        Enhance your strength and mobility with TRX suspension training. This full-body workout improves balance, flexibility, and core stability for all fitness levels.
+      </p>
+
+      <a href="https://youtu.be/TNe95PIYiaU" class="link-button">Read More &rarr;</a>
+    </div>
+  </div>
+  <div class="class-card__title">TRX</div>
+</div>
+
+<div class="class-card">
+  <img
+    class="class-card__img"
+    src="./img/courses-boxing.jpg"
+    alt="fitness course"
+    width="550"
+    height="550"
+  />
+  <div class="class-card__overlay">
+    <div class="text">
+      <p>
+        Train like a pro with our high-energy Boxing course! Develop speed, agility, and power while learning effective techniques from experienced coaches.
+      </p>
+
+      <a href="https://youtu.be/TNe95PIYiaU" class="link-button">Read More &rarr;</a>
+    </div>
+  </div>
+  <div class="class-card__title">Boxing</div>
+</div>
+
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+<section class="section-offer" id="offer">
+  <div class="offer-box">
+    <div class="offer" data-aos="fade-up">
+      <h2 class="heading heading--2 margin-bottom">
+        Special offer this summer! Get full benefits for a year with a 20% discount.
+      </h2>
+      <p class="margin-bottom">
+        Join now and unlock exclusive access to top-tier fitness programs, expert training, and premium facilities.
+      </p>
+      <a href="pricing.txt" class="btn btn__primary" target="_blank">Become a member</a>
+    </div>
+
+    <div class="offer-img"></div>
+  </div>
+</section>
+<!-- SECTION COACHES -->
+<section class="section-coaches" id="trainers">
+  <div class="container coaches-box" data-aos="fade-up">
+    <header class="coache-heading">
+      <h2 class="heading heading--2 underline margin-bottom">
+        OUR FITNESS COACHES
+      </h2>
+      <p>
+        Meet our team of expert fitness coaches dedicated to helping you
+        achieve your health and fitness goals. Whether you are looking to build
+        muscle, improve endurance, or enhance overall fitness, our trainers are
+        here to guide you every step of the way.
+      </p>
+    </header>
+
+    <article class="coache-content">
+      <div class="c-card">
+        <img src="img/imgcoache-55555.jpg" alt="coache one" class="c-card__img" width="550" height="550" />
+
+        <div class="overlay">
+          <a href="https://wa.me/your-number" target="_blank">
+            <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://www.facebook.com/yourpage" target="_blank">
+            <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://www.instagram.com/yourprofile" target="_blank">
+            <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://twitter.com/yourprofile" target="_blank">
+            <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+          </a>
+        </div>
+
+        <div class="c-card__content">
+          <p class="c-name">Varun Verma</p>
+          <p class="c-title">Body Building</p>
+        </div>
+      </div>
+
+      <div class="c-card">
+        <img src="img/imgcoache-444.jpg" alt="coache two" class="c-card__img" width="550" height="550" />
+
+        <div class="overlay">
+          <a href="https://wa.link/qv5yjy" target="_blank">
+            <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://www.facebook.com/yourpage" target="_blank">
+            <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://www.instagram.com/saketgokhale" target="_blank">
+            <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://twitter.com/yourprofile" target="_blank">
+            <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+          </a>
+        </div>
+
+        <div class="c-card__content">
+          <p class="c-name">SONAL</p>
+          <p class="c-title">Cardio Expert</p>
+        </div>
+      </div>
+
+      <div class="c-card">
+        <img src="img/imgcoache-44444.jpg" alt="coache three" class="c-card__img" width="550" height="550" />
+        <div class="overlay">
+          <a href="https://wa.link/qv5yjy" target="_blank">
+            <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://www.facebook.com/yourpage" target="_blank">
+            <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://www.instagram.com/yourprofile" target="_blank">
+            <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+          </a>
+
+          <a href="https://twitter.com/yourprofile" target="_blank">
+            <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+          </a>
+        </div>
+
+        <div class="c-card__content">
+          <p class="c-name">Saket Gokhale</p>
+          <p class="c-title">Fitness Coach</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">R</span>Fitness</h2>
+
+          <ul class="contact-data">
+            <li class="location">Alpha 2 , Greater Noida</li>
+            <li class="phone">+9458889878</li>
+            <li class="email">rishi.8006028218@com</li>
+            <li class="social">
+              <a href="https://wa.link/aiijl4"target="_blank">
+                  <img src="./img/logo-whatsapp.svg" alt="whatsapp icon" width="35" height="35" />
+              </a>
+              <a href="https://facebook.com/yourfacebookpage" target="_blank">
+                  <img src="./img/logo-facebook.svg" alt="facebook icon" width="35" height="35" />
+              </a>
+              <a href="https://instagram.com/rishi_bhardwaj_52" target="_blank">
+                  <img src="./img/logo-instagram.svg" alt="instagram icon" width="35" height="35" />
+              </a>
+              <a href="https://twitter.com/panditrishi54" target="_blank">
+                  <img src="./img/logo-twitter.svg" alt="twitter icon" width="35" height="35" />
+              </a>
+          </li>
+                    </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            nisi!
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          <p class="text">by Rishi Bhardwaj&nbsp;</p>
+          
+            <img
+              src="img/github.svg"
+              alt="github"
+              class="github"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
